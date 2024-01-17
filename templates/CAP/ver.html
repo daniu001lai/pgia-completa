@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block NAVE%}
+
+  <h1>{{capitulo}}</h1>
+  
+
+{% endblock %}
+
+
+{% block body %}
+
+<iframe
+  id="inlineFrameExample"
+  title="Inline Frame Example"
+  width="1200"
+  height="500"
+  src="https://prezi.com/p/embed/{{prezi}}/" >
+</iframe>
+{% endblock %}
