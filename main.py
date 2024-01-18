@@ -149,6 +149,14 @@ def l1():
 def l2():
     return render_template('LAB/ejercicios.html')
 
+@app.route('/extras')
+def extras():
+    return render_template('extras.html')
+
+@app.route('/cursos')
+def cursos():
+    return render_template('cursos.html')
+
 
 @app.route('/VER/<int:dat>', methods=['POST', 'GET'])
 def ver(dat):
