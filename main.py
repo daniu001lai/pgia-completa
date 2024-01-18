@@ -25,7 +25,7 @@ def cap1(id):
            "1IExnMaGzqCpxMWFVOCcKTEBU6Q-wiXPG", 
            "1zRi2SI8Lmk1_5sDoiAOwPdjyL5ZP-gjd",
             "1spMufq9N07gBq89WSB3QuCa3l2de47pe", 
-            "1F-ai_n29EkXrMIR02IjyRzw2BTUNU7WP", 
+            "1b84kxLVzay_JlV2dtyiS7_VYLNsh6hLk", 
             ]
     return render_template('CAP/cap1.html', contact=ARC[id])
 
@@ -35,58 +35,88 @@ def cap2(id):
            "1DOq5zm_5PtLYzgC60_txJ11CgWEoDBTx", 
            "1OMnI61LR67aIeq3EyIsmNj-DbwHeHyfP", 
            "1dRORu2MqNIDPWo-C64qvkXHPKHR3So9l", 
-           "1BUBUEyL4Gf_elSH91-ZnB33GGv__8H-f"]
+           "1HpZ_SHJLGRnOP3Zf4lQ5ezC8Dd_I3e2U"]
    
     return render_template('CAP/cap2.html', contact=ARC[id])
 
-@app.route('/cap3/<id>', methods=['POST', 'GET'])
+@app.route('/cap3/<int:id>', methods=['POST', 'GET'])
 def cap3(id):
-    ARC = [0, 
-           "b2CLU4fLiCDpDsutyc6Spgr3qeBAGKg8",
-           "1hV1mW7BxQXgu3r6Z-RAh5uBlKNcYXxkH",
-           "1QR_mO9QP_nYtULFWWMMEx_MJABfKfSgt",
-           "1AR63mkLgyDu1tT9o48wn1Ckj9alOVEAL",
-           ""]
-   
-    return render_template('CAP/cap2.html', contact=ARC[id])
 
-@app.route('/cap4/<id>', methods=['POST', 'GET'])
+    ARC = [0, 
+           "1x1NvUdJbdve_5k05rWwYh2Dmks5e3LbN",
+           "1GYx-85wqpcD1mXGMqNjJAzv1o_UFxfSn",
+           "1vtBITMLbdwRlxnZx6BXK-L0AJqJAYrf6",
+           "1oIYO83Qr8T-xKjSHY7DvzVBeeYA35EO1",
+           "11g5pO6_rg7Oj73uS3vkJiZRH8rtKnoBO"]
+   
+    return render_template('CAP/cap3.html', contact=ARC[id])
+
+@app.route('/cap4/<int:id>', methods=['POST', 'GET'])
 def cap4(id):
 
+
     ARC = [0, 
-           "b2CLU4fLiCDpDsutyc6Spgr3qeBAGKg8",
+           "1b2CLU4fLiCDpDsutyc6Spgr3qeBAGKg8",
            "1hV1mW7BxQXgu3r6Z-RAh5uBlKNcYXxkH",
            "1QR_mO9QP_nYtULFWWMMEx_MJABfKfSgt",
            "1AR63mkLgyDu1tT9o48wn1Ckj9alOVEAL",
-           ""]
+           "11g5pO6_rg7Oj73uS3vkJiZRH8rtKnoBO"]
    
-    return render_template('CAP/cap2.html', contact=ARC[id])
+    return render_template('CAP/cap4.html', contact=ARC[id])
 
-@app.route('/cap5/<id>', methods=['POST', 'GET'])
+@app.route('/cap5/<int:id>', methods=['POST', 'GET'])
 def cap5(id):
 
 
     ARC = [0, 
-           "1Nvy7h7m838kkyqS5pq4yz4B5OieUfb3O",
-           "1FdTN_-eEBhSYbPGhJpCt4B2cbmoQ5ufb",
-           "1ZiDwtWLvMz8rfBsz8gGxaZq8bMbREIy3",
+           
+           
+           
+           "1dYjBpEn35Y9OoIYZZi2vPfoAStgYhihO",
            "189rUIeLVAp0OEavs4ifk9iupuPJbzvK_",
-           "1dYjBpEn35Y9OoIYZZi2vPfoAStgYhihO"]
+           "1ZiDwtWLvMz8rfBsz8gGxaZq8bMbREIy3",
+           "1FdTN_-eEBhSYbPGhJpCt4B2cbmoQ5ufb",
+           "1a__gON5DI2vAqZllG7GiywizakSFl_qp",]
    
-    return render_template('CAP/cap2.html', contact=ARC[id])
+    return render_template('CAP/cap5.html', contact=ARC[id])
 
-@app.route('/cap6/<id>', methods=['POST', 'GET'])
+@app.route('/cap6/<int:id>', methods=['POST', 'GET'])
 def cap6(id):
 
 
     ARC = [0, 
-           "1Nvy7h7m838kkyqS5pq4yz4B5OieUfb3O",
-           "1FdTN_-eEBhSYbPGhJpCt4B2cbmoQ5ufb",
-           "1ZiDwtWLvMz8rfBsz8gGxaZq8bMbREIy3",
-           "189rUIeLVAp0OEavs4ifk9iupuPJbzvK_",
-           "1dYjBpEn35Y9OoIYZZi2vPfoAStgYhihO"]
+           
+            "1SufFjt67nzZSIsIpds8ysf_Oaiu75Agw",
+           
+           "1KTYt8rnmNcOCF5YkUw07X2HFr3HXxVUI",
+           "18G_BYaMAgUd6y1gD0OsMzR6JcUqBKHD8",
+          "1n9zTs_HLxbncX7M1y0oC7NKUx6GGHzwi",
+           "1idxdWhQcHk9c5GxY4VYpGRbv7VDqmCRj",
+           "11g5pO6_rg7Oj73uS3vkJiZRH8rtKnoBO"]
+    
    
-    return render_template('CAP/cap2.html', contact=ARC[id])
+    return render_template('CAP/cap6.html', contact=ARC[id])
+@app.route('/VERPDF/<int:id>', methods=['POST', 'GET'])
+def VERPDF(id):
+    pdf = [0, 
+           "1DcGzziQV6XO7EB92VNxSvOI8wfHz0L_D",
+           "16_gYTZIDHc4nW1iYJa-7ZpMG945iCnRl",
+           "116209125536641958645&rtpof"
+           ]
+    en=[0,
+        "LABORATORIO 1 ",
+        "LABORATORIO 2",
+        "LABORATORIO 2"
+        ]
+    sub =[0,
+         "MODELOS DE PROPAGACION",
+         "RADIOELNACE RADIOWORKS",
+         "ENLACE X-IRIO ONLINE"
+         ]
+   
+ 
+
+    return render_template('CAP/VERPDF.html', pdf=pdf[id],en=en[id],sub=sub[id])
 
 
 ## llamada a manuales de usuario
@@ -148,4 +178,4 @@ def ver(dat):
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0")
+    app.run(port=3000, debug=True, host="0.0.0.0")
